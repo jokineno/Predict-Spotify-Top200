@@ -4,10 +4,24 @@
 git clone https://github.com/hd4niel/Predict-Spotify-Top200.git
 ```
 
+## File structure
+
+#### data
+Data files, .csv etc...
+
+#### notebooks
+Jupyter notebooks
+
+#### src
+Code, .py files
+
+#### results
+Analysis docs
+
 ## Example workflow using virtual environment in python
 
 #### Initialize virtual env in venv/ (it is ignored by gitignore)
-    virtualenv -p /usr/bin/python3 venv
+    virtualenv -p python3 venv
 
 #### Activate virtual env
     source venv/bin/activate
