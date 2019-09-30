@@ -4,6 +4,12 @@
 git clone https://github.com/hd4niel/Predict-Spotify-Top200.git
 ```
 
+## TODO
+- [ ] Analyze features' correlation with streams and position
+- [ ] Timeline of features over time
+- [ ] Feature timeseries forecasting
+- [x] Extra: Generate lyrics
+
 ## File structure
 
 #### data
@@ -37,3 +43,8 @@ Analysis docs
     
 #### Deactivate environment
     deactivate
+
+#### Use jupyter
+    ipython kernel install --user --name=.venv
+    jupyter notebook
+choose kernel .venv
