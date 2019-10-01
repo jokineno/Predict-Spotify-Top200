@@ -48,3 +48,8 @@ Analysis docs
     ipython kernel install --user --name=.venv
     jupyter notebook
 choose kernel .venv
+
+## Notes
+
+#### Used ImageMagick in bash for GIF
+    convert -delay 15 *.jpg topfeatures.gif
