@@ -1,8 +1,5 @@
 # Predict-Spotify-Top200
-
-```
-git clone https://github.com/hd4niel/Predict-Spotify-Top200.git
-```
+- This is a miniproject in which Spotify API is used to pull the audio features data of music tracks. That data is used to described what kind of features are present in hit songs and how those features have changed over a time period. 
 
 ## TODO
 - [ ] Analyze features' correlation with streams and position
